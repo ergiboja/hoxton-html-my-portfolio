@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behaviour: smooth;
+}
+body{
+    display: grid;
+    grid-template:
+    'header'70vh
+    'main'50vh
+    'experience'50vh
+    'footer'3vh/
+    100% 
+    ;
+}
+.bar{
+    grid-template-columns: 1fr 300px;
+    background-color: black;
+    margin: 20px;
+    display: grid;
+    align-content: center;
+    height: 60px;
+
+
+    
+
+}
+.left_header{
+    color: rgb(253, 253, 253);
+    margin-left: 5px;
+}
+.right_header{
+    display: inline;
+    justify-items: end;
+    align-items: center;
+    padding-right: 0px;
+
+
+    
+}
+.right_header ul{
+    padding-top: 10px;
+    
+    
+}
+nav  li{
+    list-style: none;
+    color: aliceblue;
+     display:inline;
+     padding: 10px;
+    
+
+
+    
+}
+nav li a{
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+header{
+    background-color: rgb(222, 110, 69);
+    grid-area: header;
+    display: grid;
+
+}
+
+main{
+    background-color: aqua;
+    grid-area: main;
+}
+.experience{
+    background-color: deepskyblue;
+    grid-area: experience;
+}
+footer{
+    background-color: black;
+    grid-area: footer;
+    color: aliceblue;
+    text-align: center;
+}
+.adv{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 100px 100px;
+    padding: 15px;
+    background-color: black;
+    width: 1fr;
+  }
+  
+  .adv h2{
+    display: grid;
+    place-content: center;
+    color: gold;
+    padding-bottom: 10px;
+  }
+  
+  .adv p{
+    padding: 5px;
+    color: white;
+  }
+  b{
+    color: #00ffff60;
+  }
+  .arrow{  
+    text-align: center;
+    color: white;
+  }
+  main{
+      background-color: grey;
+  }
+
+.projects{
+      display: grid;
+      grid-template:
+      'maintxt maintxt maintxt' 1fr
+      'first second third' auto/
+       auto auto auto;
+       gap: 20px;
+       background-color: #ede6e2;
+       padding-bottom: 100px;
+      padding-right: 100px;
+      
+  }
+  .projects_h{
+     grid-area: maintxt;
+  }
+  
+.first{
+      grid-area: first;
+      border: 1px solid black;
+      padding: 20px;
+      margin-left: 150px;
+      margin-bottom: 10px;
+      background-color: white;
+  } 
+.second{
+    grid-area: second;
+    border: 1px solid black;
+    padding: 20px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.third{
+    grid-area: third;
+    border: 1px solid black;
+    padding: 20px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+ .projects a{
+    margin-top: 30px;
+   
+    text-decoration: none;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(234, 34, 34) ;
+    width: 100px;
+    height: 20px;
+    padding-left: 50px;
+}
+.projects_h {
+    text-align: center;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    color: rgb(226, 105, 5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+footer .back{
+    color: #ede6e2;
+
+}
+footer a{
+    padding-top: 15px;
+    text-decoration: none;
+}
+.projects p{
+    text-align: center;
+}
+
+.experience{
+    grid-area: experience;
+    background-color: #5bc3eb;
+    
+    display: grid;
+    gap: 10px;
+  }
+  .first_row{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0px 250px;
+    background-color: rgb(234, 225, 225);
+  
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 180px 1fr 180px;
+    text-align: center;
+  }
+  .second_row{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0px 250px;
+    background-color: rgb(234, 225, 225);
+  
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 180px 1fr 180px;
+    text-align: center;
+  }
+  .third_row{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0px 250px;
+    background-color: rgb(234, 225, 225);
+  
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 180px 1fr 180px;
+    text-align: center;
+  }
+  .fourth_row{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0px 250px;
+    margin-bottom: 50px;
+    background-color: rgb(234, 225, 225);
+  
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 180px 1fr 180px;
+    text-align: center;
+  }
+   
